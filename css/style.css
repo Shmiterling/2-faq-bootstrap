@@ -1,0 +1,30 @@
+button.arrow-off::after,
+button.arrow-off:not(.collapsed)::after {
+  background-image: none;
+}
+
+button.bg-color.collapsed,
+button.bg-color:not(.collapsed){
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+
+button.color.collapsed,
+button.color:not(.collapsed) {
+  color: orange;
+  text-decoration: underline;
+}
+
+button.color.collapsed:hover,
+button.color:not(.collapsed):hover {
+  color: rgba(51, 51, 51, 0.5);
+}
+
+button.no-border:focus {
+  box-shadow: none;
+}
+
+button.btn-text {
+  display: block;
+  text-align: center;
+}
